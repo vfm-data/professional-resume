@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Contact details</title>
+  </head>
+  <body>
+    <h1><strong>Contact details</strong></h1>
+    <p>Consultant can be contacted via details listed below:</p>
+    <add>
+      <a href="mailto:mastervaeb@gmail.com?subject=Webcontact">Email me</a><br>
+      <a href="tel:14804429617">(480) 442-9617</a>
+    </add>
+    <hr>
+    <form action="mailto:mastervaeb@gmail.com?subject=Consulting Appointment" method="post" enctype="text/plain">
+      <label for="">Your Name:</label>
+      <input type="text" name="yourName" value=""><br>
+      <label>Your Email:</label>
+      <input type="email" name="yourEmail" value=""><br>
+      <label>Your Message:</label><br>
+      <textarea name="yourMessage" rows="8" cols="40" ondragover=""></textarea><br><br>
+      <label for="meeting-time">Please choose a convenient time for you next appointment:</label><br>
+      <input type="datetime-local" name="requestedMeetingTime"
+             value="2021-02-05T10:35"
+             min="2021-02-05T07:00" max="2021-04-30T15:00"><br>
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
